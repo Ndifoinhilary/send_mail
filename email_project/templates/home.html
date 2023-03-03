@@ -1,0 +1,17 @@
+
+
+
+
+<form method="post">
+    <h1>Send Mail</h1>
+{% csrf_token %}
+<p>Subject</p>
+<input type="text" name="subject">
+<p>Email</p>
+<input type="email" name="email"><br>
+<p><h2>Enter your content</h2></p><br>
+<textarea name="message"  cols="30" rows="10"></textarea><br>
+<button>send</button>
+
+
+</form>
